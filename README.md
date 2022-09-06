@@ -1,2 +1,0 @@
-# jessesuihkone.github.io
-verkkosivuprojekti
