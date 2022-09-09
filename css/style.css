@@ -2,14 +2,35 @@ body {
  background-color:lightgray;
 }
 h1 {
- color:yellow;background-color:gray;text-align:center;border:3px solid black;
+ color:yellow;
+ background-color:gray;
+ text-align:center;
+ border:3px solid black;
 }
 p {
- color:yellow;text-align:center;background-color:gray;border:3px solid black;
+ color:yellow;
+ text-align:center;
+ background-color:gray;
+ border:3px solid black;
+ padding:5px;
+ font-family: verdana;
+ font-size: 150%;
 }
 h2 {
- color:yellow;background-color:gray;text-align:center;border:3px solid black;
+ color:yellow;
+ background-color:gray;
+ text-align:center;
+ border:3px solid black;
 }
+
+
+
+/* Kuvat
+
+
+
+
+
 a:link {
   color: lightyellow;
   background-color: transparent;
@@ -37,10 +58,7 @@ a:link {
 background-color:gray;
 }
 
-#nappi2 {
-  color:black
-  width:1920px
-}
+
 
 
 /* Kissakuvan kääntöjuttu
