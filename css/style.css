@@ -17,7 +17,7 @@ a:link {
 }
 
 a:visited {
-  color: black;
+  color: lightgreen;
   background-color: transparent;
   text-decoration: none;
 }
@@ -33,12 +33,14 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-a:link{
+a:link {
 background-color:gray;
 }
 
-
-
+#nappi2 {
+  color:black
+  width:1920px
+}
 
 
 /* Kissakuvan kääntöjuttu
