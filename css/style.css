@@ -1,7 +1,32 @@
 
-body {
- background-color:lightgray;
+
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
 }
+    30% {
+        background-color: #66bf39
+}
+    60% {
+        background-color: #eb670f
+}
+    90% {
+        background-color: #f35
+}
+    100% {
+        background-color: #864cbf
+}
+}
+
+body {
+ -webkit-animation: bgcolor 20s infinite;
+ animation: bgcolor 10s infinite;
+ -webkit-animation-direction: alternate;
+ animation-direction: alternate;
+}
+
+
 
 
 
@@ -35,6 +60,8 @@ h3 {
  border:4px solid black;
 }
 
+
+
 ul {
  background-color:gray;
  border: 2px solid black;
@@ -44,8 +71,6 @@ ol {
  border: 2px solid black;
 }
 
-
-/* Kuvat
 
 
 
@@ -72,11 +97,78 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-a:link {
-background-color:gray;
+
+
+.flip-box {
+  margin: 10px auto 20px;
+    display: block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 3.0s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+ transform: rotateY(3780deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color:transparent;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: transparent;
+  color: gray;
+  border: 2px solid black;
+  transform: rotateY(180deg);
+}
+
+
+
+table {
+ border-collapse: collapse;
+}
+
+
+th {
+ padding: 12px;
+ text-align: left;
+ background-color: gray;
+ color: yellow;
+}
+
+td, th {
+ border: 2px solid black;
+ padding: 8px;
+}
+
+th:hover {
+background-color: coral;
+}
+
+td:hover {
+background-color: lightblue;
 }
 
 
 
 
-/* Kissakuvan kääntöjuttu
