@@ -1,6 +1,10 @@
+
 body {
  background-color:lightgray;
 }
+
+
+
 h1 {
  color:yellow;
  background-color:gray;
@@ -40,39 +44,6 @@ ol {
 
 
 /* Kuvat
-
-
-
-/* Taulukko
-
-#taulukko {
- border-collapse: collapse;
- width: 100%;
-}
-
-
-#taulukko th {
- padding-top: 12px;
- padding-bottom: 12px;
- text-align: left;
- background-color: gray;
- color: white;
-}
-
-#taulukko td, #taulukko th {
- border: 2px solid black;
- padding: 8px;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
