@@ -14,11 +14,11 @@
 }
 
 #spiderman {
-  -webkit-animation: swinganimation 3.5s infinite alternate;
-  -moz-animation: swinganimation 3.5s infinite alternate;
-  -ms-animation: swinganimation 3.5s infinite alternate;
-  -o-animation: swinganimation 3.5s infinite alternate;
-  animation: swinganimation 3.5s infinite alternate;
+  -webkit-animation: swinganimation 3.1s infinite alternate;
+  -moz-animation: swinganimation 3.1s infinite alternate;
+  -ms-animation: swinganimation 3.1s infinite alternate;
+  -o-animation: swinganimation 3.1s infinite alternate;
+  animation: swinganimation 3.1s infinite alternate;
   position: absolute;
   width: 70px;
   height: 103px;
