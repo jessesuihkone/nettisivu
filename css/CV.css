@@ -1,10 +1,12 @@
 body {
   background-color:lightgray;
-  padding-top:3%;
-  padding-bottom:3%;
+  
   
 }
 
+* {
+  box-sizing: border-box;
+}
 
 .centerimg {
   display: block;
@@ -32,6 +34,10 @@ h2 {
   padding-left:2%; 
 }
 
+.row:after {
+  
+}
+
 .div1 {
   border:2px solid black;
   padding-left:2%;
@@ -39,16 +45,26 @@ h2 {
   width:50%;
   margin-left:25%;
   margin-right:25%;
+  margin-top:3%;
+  margin-bottom:3%;
   background-color:white;
+  float:left;
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom:3%;
 }
 
 
 .div3 {
-  margin-left:50%;
-  margin-right:25%;
-  width:45%;
-  background-color:lightgray;  
   
+ 
+  text-align:left;
+  width:50%;
+  background-color:lightgray;  
+  float:right;
+  border:2px solid black;
+  font-size:100%;
 }
 
 ul, {
