@@ -35,21 +35,18 @@ h2 {
 .div1 {
   border:2px solid black;
   padding-left:2%;
+  padding-right:2%;
   width:50%;
   margin-left:25%;
   margin-right:25%;
   background-color:white;
 }
 
-.div2 {	
-  background-color:white;
-  margin-right:55%;
-}
 
 .div3 {
   margin-left:50%;
   margin-right:25%;
-  width:50%;
+  width:45%;
   background-color:lightgray;  
   
 }
