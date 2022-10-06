@@ -1,9 +1,8 @@
 body {
+  background-color:lightgray;
   padding-top:3%;
   padding-bottom:3%;
-  padding-left:20%;
-  padding-right:20%;
-  background-color:lightgray;
+  
 }
 
 
@@ -16,12 +15,16 @@ body {
 
 p {
   text-align:left;
-  padding-left:2%;
+  padding-left:3%;
+  font-family:Roboto;
 }
 
 h1 {
   text-align:center;
   font-family:verdana;
+  padding-top:1%;
+  padding-bottom:1%;
+  font-size:200%;
 }
 
 h2 {
@@ -31,4 +34,26 @@ h2 {
 
 .div1 {
   border:2px solid black;
+  padding-left:2%;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  background-color:white;
+}
+
+.div2 {	
+  background-color:white;
+  margin-right:55%;
+}
+
+.div3 {
+  margin-left:50%;
+  margin-right:25%;
+  width:50%;
+  background-color:lightgray;  
+  
+}
+
+ul, {
+  
 }
